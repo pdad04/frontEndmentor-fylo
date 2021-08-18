@@ -1,0 +1,48 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./images/bg-mobile.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.mtdl {
+    background-color: hsl(228, 56%, 26%);
+    width: 80%;
+    padding: 2.5rem;
+    border-radius: 0.5rem 5rem 0.5rem 0.5rem;
+}
+
+.mtdl-icons {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.mtdl-icons-item {
+    height: 3rem;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+}
